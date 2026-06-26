@@ -1,0 +1,5 @@
+[
+  { "id": "inv-242", "name": "Ana García", "maxGuests": 2 },
+  { "id": "inv-234", "name": "Luis Martínez", "maxGuests": 1 },
+  { "id": "inv-256", "name": "Familia Pérez", "maxGuests": 4 }
+]
