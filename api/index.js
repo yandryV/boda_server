@@ -1,6 +1,5 @@
 // api/index.js
 const express = require("express");
-const serverless = require("serverless-http");
 const admin = require("firebase-admin");
 const guests = require("./guests.json"); // archivo en la raíz
 const cors = require("cors");
@@ -68,4 +67,4 @@ app.post("/rsvp/:id", async (req, res) => {
 });
 
 // ---------- Exportar handler para Vercel ----------
-module.exports.handler = serverless(app);
+module.exports = app;
