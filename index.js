@@ -3,8 +3,10 @@ const express = require("express");
 const serverless = require("serverless-http");
 const admin = require("firebase-admin");
 const guests = require("./guests.json"); // archivo en la raíz
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 // ---------- Inicializar Firebase (solo una vez) ----------
