@@ -66,5 +66,34 @@ app.post("/rsvp/:id", async (req, res) => {
   }
 });
 
+// Obtener todas las confirmaciones desde Firestore
+app.get("/api/admin/rsvps", checkAdmin, async (req, res) => {
+  try {
+    const snapshot = await rsvpCollection.orderBy("timestamp", "desc").get();
+    const rsvps = [];
+    snapshot.forEach((doc) => {
+      rsvps.push(doc.data());
+    });
+    // Enriquecer con nombre del invitado
+    const enriched = rsvps.map((r) => {
+      const guest = guests.find((g) => g.id === r.guest_id);
+      return {
+        ...r,
+        guest_name: guest ? guest.name : "Desconocido",
+        maxGuests: guest ? guest.maxGuests : 0,
+      };
+    });
+    res.json(enriched);
+  } catch (err) {
+    console.error("Error al obtener RSVPs:", err);
+    res.status(500).json({ error: "Error del servidor" });
+  }
+});
+
+// api/index.js (añadir al final, antes de module.exports)
+app.get("/api/guests", (req, res) => {
+  res.json(guests);
+});
+
 // ---------- Exportar handler para Vercel ----------
 module.exports = app;
