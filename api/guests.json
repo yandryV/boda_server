@@ -1,5 +1,209 @@
 [
-  { "id": "inv-242", "name": "Ana García", "maxGuests": 2 },
-  { "id": "inv-234", "name": "Luis Martínez", "maxGuests": 1 },
-  { "id": "inv-256", "name": "Familia Pérez", "maxGuests": 4 }
+  {
+    "id": "inv-a7f3d91c",
+    "name": "Wilther Vera Alcívar & Pareja",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-c92e5ab8",
+    "name": "Lady Vera & Jesús Lucas",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-f14b7d63",
+    "name": "Carmen Alcívar & Guadalupe Moreira",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-8d6c2ef1",
+    "name": "Auxilia Vera",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-b53a91e7",
+    "name": "Landys Alcívar & Esposo",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-e87d14c2",
+    "name": "Pablo Vera & Esposa",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-19fa63bd",
+    "name": "Leonardi Alcívar & Esposa",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-6cb81f4e",
+    "name": "Bosco Vera Mendieta & Irasema Delgado",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-d4a75ec9",
+    "name": "Bosco Vera Delgado & Esposa",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-2f91b6a4",
+    "name": "Amparo Vera & Esposo",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-95de13f8",
+    "name": "Fabricio Zambrano",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-4bc7e2d5",
+    "name": "July Zambrano",
+    "maxGuests": 1,
+    "group": "y"
+  },
+  {
+    "id": "inv-f0a48c91",
+    "name": "Zoila Zambrano",
+    "maxGuests": 1,
+    "group": "y"
+  },
+
+  { "id": "inv-73ce5b2a", "name": "Plinio Vera", "maxGuests": 1, "group": "y" },
+  { "id": "inv-a16fd84c", "name": "Roddy Vera", "maxGuests": 1, "group": "y" },
+  {
+    "id": "inv-c5e3a971",
+    "name": "Oscar Vera & Esposa",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-81b4fd3e",
+    "name": "Kevin Alcívar",
+    "maxGuests": 1,
+    "group": "y"
+  },
+  {
+    "id": "inv-e2d91a57",
+    "name": "Mirella Vera & Esposo",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-5fa7c8d2",
+    "name": "Vicenta Vera & Regina Mendieta",
+    "maxGuests": 0,
+    "group": "y"
+  },
+
+  {
+    "id": "inv-b18e6f4d",
+    "name": "Mario Chávez",
+    "maxGuests": 2,
+    "group": "y"
+  },
+  {
+    "id": "inv-3dc95ab1",
+    "name": "Steven Segovia & Esposa",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-f6a21ce8",
+    "name": "Joel Chávez & Pareja",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-9eb4d730",
+    "name": "Kevin Alonso & Pareja",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-67ac1ef9",
+    "name": "Carlos Conforme & Esposa",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-d83f52b6",
+    "name": "Rocío Ramírez",
+    "maxGuests": 0,
+    "group": "y"
+  },
+  {
+    "id": "inv-14ce8fb3",
+    "name": "Odalys Bravo",
+    "maxGuests": 1,
+    "group": "y"
+  },
+  { "id": "inv-7a5d19ec", "name": "Maifer Mero", "maxGuests": 1, "group": "y" },
+  {
+    "id": "inv-c84b3a7f",
+    "name": "Claudia Cevallos",
+    "maxGuests": 1,
+    "group": "y"
+  },
+
+  {
+    "id": "inv-5a9c81d2",
+    "name": "Damián Aguilar",
+    "maxGuests": 0,
+    "group": "k"
+  },
+  {
+    "id": "inv-8e37bf14",
+    "name": "Gabriel Cevallos",
+    "maxGuests": 0,
+    "group": "k"
+  },
+  {
+    "id": "inv-f13ad7c9",
+    "name": "Nicolás Meza",
+    "maxGuests": 1,
+    "group": "k"
+  },
+  {
+    "id": "inv-c6b42e8f",
+    "name": "Diego Chávez",
+    "maxGuests": 0,
+    "group": "k"
+  },
+  {
+    "id": "inv-9d85f1ab",
+    "name": "Dayana Pacheco",
+    "maxGuests": 1,
+    "group": "k"
+  },
+  {
+    "id": "inv-3f71c5de",
+    "name": "Óscar Flores",
+    "maxGuests": 0,
+    "group": "k"
+  },
+  {
+    "id": "inv-b48e29fa",
+    "name": "Anthony Sánchez",
+    "maxGuests": 1,
+    "group": "k"
+  },
+  { "id": "inv-e2c94b76", "name": "Luis Gómez", "maxGuests": 1, "group": "k" },
+  { "id": "inv-71fd38ac", "name": "Juan Gómez", "maxGuests": 0, "group": "k" },
+  { "id": "inv-a56b7ed1", "name": "Kevin Álava", "maxGuests": 0, "group": "k" },
+  {
+    "id": "inv-d84f23be",
+    "name": "Zharick García",
+    "maxGuests": 1,
+    "group": "k"
+  }
 ]
