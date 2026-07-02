@@ -67,7 +67,7 @@ app.post("/rsvp/:id", async (req, res) => {
 });
 
 // Obtener todas las confirmaciones desde Firestore
-app.get("/api/admin/rsvps", checkAdmin, async (req, res) => {
+app.get("/api/admin/rsvps", async (req, res) => {
   try {
     const snapshot = await rsvpCollection.orderBy("timestamp", "desc").get();
     const rsvps = [];
