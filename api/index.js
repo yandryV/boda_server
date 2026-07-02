@@ -46,17 +46,21 @@ app.post("/rsvp/:id", async (req, res) => {
   }
 
   const { attending, guestsCount } = req.body;
-  if (guestsCount > guest.maxGuests) {
-    return res.status(400).json({
-      error: `Máximo ${guest.maxGuests} acompañantes`,
-    });
+
+  // Si asiste, el total debe ser al menos 1 y no superar el máximo
+  if (attending) {
+    if (!guestsCount || guestsCount < 1 || guestsCount > guest.guests) {
+      return res.status(400).json({
+        error: `El número total de asistentes debe ser entre 1 y ${guest.guests}.`,
+      });
+    }
   }
 
   try {
     await rsvpCollection.doc(guestId).set({
       guest_id: guestId,
       attending: !!attending,
-      guests_count: guestsCount || 0,
+      guests_count: attending ? guestsCount : 0, // guardamos el total (0 si no asiste)
       timestamp: new Date().toISOString(),
     });
     res.json({ success: true });
