@@ -62,7 +62,7 @@
   {
     "id": "inv-95de13f8",
     "name": "Fabricio Zambrano",
-    "guests": 1,
+    "guests": 2,
     "group": "y"
   },
   {
@@ -214,6 +214,18 @@
   {
     "id": "inv-d84f23be",
     "name": "Zharick García",
+    "guests": 2,
+    "group": "k"
+  },
+  {
+    "id": "inv-f4a35ec9",
+    "name": "Victor Plaza",
+    "guests": 2,
+    "group": "k"
+  },
+  {
+    "id": "inv-k8a35ec9",
+    "name": "Arq. Galo Menendez",
     "guests": 2,
     "group": "k"
   },
