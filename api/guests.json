@@ -18,6 +18,18 @@
     "group": "y"
   },
   {
+    "id": "inv-9f3c2ef1",
+    "name": "Paco Bailon & Hija",
+    "guests": 2,
+    "group": "y"
+  },
+  {
+    "id": "inv-7f3c3e21",
+    "name": "Familia Ramírez",
+    "guests": 5,
+    "group": "y"
+  },
+  {
     "id": "inv-8d6c2ef1",
     "name": "Auxilia Vera",
     "guests": 1,
@@ -38,7 +50,7 @@
   {
     "id": "inv-19fa63bd",
     "name": "Leonardi Alcívar & Silvana",
-    "guests": 2,
+    "guests": 3,
     "group": "y"
   },
   {
