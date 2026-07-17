@@ -13,7 +13,19 @@
   },
   {
     "id": "inv-f14b7d63",
-    "name": "Carmen Alcívar & Guadalupe Moreira",
+    "name": "Carmen Alcívar & Adrián Moreira",
+    "guests": 2,
+    "group": "y"
+  },
+  {
+    "id": "inv-f64b9d63",
+    "name": "Jr. Moreira & Familia",
+    "guests": 3,
+    "group": "y"
+  },
+  {
+    "id": "inv-c14r7d69",
+    "name": "Carlos Moreira & Esposa",
     "guests": 2,
     "group": "y"
   },
@@ -21,6 +33,12 @@
     "id": "inv-9f3c2ef1",
     "name": "Paco Bailon & Hija",
     "guests": 2,
+    "group": "y"
+  },
+  {
+    "id": "inv-9r3c6em1",
+    "name": "Jostin Delgado",
+    "guests": 1,
     "group": "y"
   },
   {
